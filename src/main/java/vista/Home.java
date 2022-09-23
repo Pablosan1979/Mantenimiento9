@@ -61,18 +61,24 @@ public class Home extends javax.swing.JFrame {
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel7.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("Usuario");
         jLabel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel7.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel7.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel7.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel7.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel7.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel7.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel8.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Contraseña");
         jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel8.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel8.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel8.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel8.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel8.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel8.setPreferredSize(new java.awt.Dimension(120, 25));
 
         txtIngresoUsuario.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         txtIngresoUsuario.setMaximumSize(new java.awt.Dimension(100, 25));
@@ -123,9 +129,9 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap(81, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(PasswordFieldIngresoContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -159,55 +165,66 @@ public class Home extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Nombres");
         jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel1.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel1.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel1.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel1.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel1.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel1.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel2.setBackground(java.awt.SystemColor.controlHighlight);
         jLabel2.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Apellidos");
         jLabel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel2.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel2.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel2.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel2.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel2.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel2.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel3.setBackground(java.awt.SystemColor.controlHighlight);
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Codigo Empleado");
         jLabel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel3.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel3.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel3.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel3.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel3.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel3.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel4.setBackground(java.awt.SystemColor.controlHighlight);
         jLabel4.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Area");
         jLabel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel4.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel4.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel4.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel4.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel4.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel4.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel5.setBackground(java.awt.SystemColor.controlHighlight);
         jLabel5.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Crear Usuario");
         jLabel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel5.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel5.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel5.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel5.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel5.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel5.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jLabel6.setBackground(java.awt.SystemColor.controlHighlight);
         jLabel6.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Crear contraseña");
         jLabel6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jLabel6.setMaximumSize(new java.awt.Dimension(100, 25));
-        jLabel6.setMinimumSize(new java.awt.Dimension(100, 25));
-        jLabel6.setPreferredSize(new java.awt.Dimension(100, 25));
+        jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel6.setMaximumSize(new java.awt.Dimension(120, 25));
+        jLabel6.setMinimumSize(new java.awt.Dimension(120, 25));
+        jLabel6.setPreferredSize(new java.awt.Dimension(120, 25));
 
         txtNombres.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         txtNombres.setMaximumSize(new java.awt.Dimension(120, 25));
@@ -346,6 +363,8 @@ public class Home extends javax.swing.JFrame {
                 .addGap(150, 150, 150))
         );
 
+        jLabel3.getAccessibleContext().setAccessibleDescription("Numero de identificacion del empleado");
+
         jDesktopPane1.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane1.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
@@ -355,7 +374,7 @@ public class Home extends javax.swing.JFrame {
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jDesktopPane1Layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44))
         );
