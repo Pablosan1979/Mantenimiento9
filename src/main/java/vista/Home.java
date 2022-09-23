@@ -210,19 +210,19 @@ public class Home extends javax.swing.JFrame {
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 25));
 
         txtNombres.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        txtNombres.setMaximumSize(new java.awt.Dimension(100, 25));
-        txtNombres.setMinimumSize(new java.awt.Dimension(100, 25));
-        txtNombres.setPreferredSize(new java.awt.Dimension(100, 25));
+        txtNombres.setMaximumSize(new java.awt.Dimension(120, 25));
+        txtNombres.setMinimumSize(new java.awt.Dimension(120, 25));
+        txtNombres.setPreferredSize(new java.awt.Dimension(120, 25));
 
         txtApellidos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        txtApellidos.setMaximumSize(new java.awt.Dimension(100, 25));
-        txtApellidos.setMinimumSize(new java.awt.Dimension(100, 25));
-        txtApellidos.setPreferredSize(new java.awt.Dimension(100, 25));
+        txtApellidos.setMaximumSize(new java.awt.Dimension(120, 25));
+        txtApellidos.setMinimumSize(new java.awt.Dimension(120, 25));
+        txtApellidos.setPreferredSize(new java.awt.Dimension(120, 25));
 
         txtCodigoEmpleado.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        txtCodigoEmpleado.setMaximumSize(new java.awt.Dimension(100, 25));
-        txtCodigoEmpleado.setMinimumSize(new java.awt.Dimension(100, 25));
-        txtCodigoEmpleado.setPreferredSize(new java.awt.Dimension(100, 25));
+        txtCodigoEmpleado.setMaximumSize(new java.awt.Dimension(120, 25));
+        txtCodigoEmpleado.setMinimumSize(new java.awt.Dimension(120, 25));
+        txtCodigoEmpleado.setPreferredSize(new java.awt.Dimension(120, 25));
         txtCodigoEmpleado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCodigoEmpleadoActionPerformed(evt);
@@ -230,9 +230,9 @@ public class Home extends javax.swing.JFrame {
         });
 
         txtCrearUsuario.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        txtCrearUsuario.setMaximumSize(new java.awt.Dimension(100, 25));
-        txtCrearUsuario.setMinimumSize(new java.awt.Dimension(100, 25));
-        txtCrearUsuario.setPreferredSize(new java.awt.Dimension(100, 25));
+        txtCrearUsuario.setMaximumSize(new java.awt.Dimension(120, 25));
+        txtCrearUsuario.setMinimumSize(new java.awt.Dimension(120, 25));
+        txtCrearUsuario.setPreferredSize(new java.awt.Dimension(120, 25));
         txtCrearUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCrearUsuarioActionPerformed(evt);
@@ -240,9 +240,9 @@ public class Home extends javax.swing.JFrame {
         });
 
         PasswordFieldContraseña.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        PasswordFieldContraseña.setMaximumSize(new java.awt.Dimension(100, 25));
-        PasswordFieldContraseña.setMinimumSize(new java.awt.Dimension(100, 25));
-        PasswordFieldContraseña.setPreferredSize(new java.awt.Dimension(100, 25));
+        PasswordFieldContraseña.setMaximumSize(new java.awt.Dimension(120, 25));
+        PasswordFieldContraseña.setMinimumSize(new java.awt.Dimension(120, 25));
+        PasswordFieldContraseña.setPreferredSize(new java.awt.Dimension(120, 25));
         PasswordFieldContraseña.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PasswordFieldContraseñaActionPerformed(evt);
@@ -251,9 +251,9 @@ public class Home extends javax.swing.JFrame {
 
         cbxArea.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione Area", "Mantenimiento", "Produccion", "Otra", " " }));
         cbxArea.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        cbxArea.setMaximumSize(new java.awt.Dimension(100, 25));
-        cbxArea.setMinimumSize(new java.awt.Dimension(100, 25));
-        cbxArea.setPreferredSize(new java.awt.Dimension(100, 25));
+        cbxArea.setMaximumSize(new java.awt.Dimension(120, 25));
+        cbxArea.setMinimumSize(new java.awt.Dimension(120, 25));
+        cbxArea.setPreferredSize(new java.awt.Dimension(120, 25));
 
         jPanel4.setBackground(java.awt.SystemColor.menu);
 
@@ -355,7 +355,7 @@ public class Home extends javax.swing.JFrame {
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jDesktopPane1Layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44))
         );
